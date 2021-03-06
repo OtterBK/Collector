@@ -1,0 +1,9 @@
+name: BCollector
+main: BCollector.BCollector
+version: 0.01
+description: Made by Bokum
+commands:
+  채집:
+    description: plantSystem
+  채광:
+    description: QuarrySystem
