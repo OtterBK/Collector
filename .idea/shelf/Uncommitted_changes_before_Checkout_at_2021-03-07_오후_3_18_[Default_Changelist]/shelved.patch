@@ -1,0 +1,22 @@
+Index: .idea/StickySelectionHighlights.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"StickySelectionHighlights\">\r\n    <option name=\"editorHighlights\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$/src/BCollector/BCollector.java\">\r\n          <value>\r\n            <PaintGroupHighlightMap />\r\n          </value>\r\n        </entry>\r\n        <entry key=\"$PROJECT_DIR$/src/Collect/CollectData.java\">\r\n          <value>\r\n            <PaintGroupHighlightMap />\r\n          </value>\r\n        </entry>\r\n        <entry key=\"$PROJECT_DIR$/src/Collect/CollectSystem.java\">\r\n          <value>\r\n            <PaintGroupHighlightMap />\r\n          </value>\r\n        </entry>\r\n        <entry key=\"$PROJECT_DIR$/src/Collect/Plant/PlantSystem.java\">\r\n          <value>\r\n            <PaintGroupHighlightMap />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/StickySelectionHighlights.xml b/.idea/StickySelectionHighlights.xml
+--- a/.idea/StickySelectionHighlights.xml	(revision e57d1131f693e575da8b7f8d6bd82c28fdfc35a2)
++++ b/.idea/StickySelectionHighlights.xml	(date 1615097844883)
+@@ -3,6 +3,11 @@
+   <component name="StickySelectionHighlights">
+     <option name="editorHighlights">
+       <map>
++        <entry key="/Dummy.txt">
++          <value>
++            <PaintGroupHighlightMap />
++          </value>
++        </entry>
+         <entry key="$PROJECT_DIR$/src/BCollector/BCollector.java">
+           <value>
+             <PaintGroupHighlightMap />
