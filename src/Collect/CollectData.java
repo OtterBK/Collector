@@ -43,9 +43,9 @@ public class CollectData {
 	
 	private Inventory workbench;
 	
-	private int slot_Stat = 4; //원래 4
-	private int slot_Cooldown = 10; //원래 10
-	private int slot_Workbench = 16;
+	private int slot_Stat = 11; //원래 4
+	private int slot_Cooldown = 15; //원래 10
+	private int slot_Workbench = -1; //기본값 16, -1로 하여 개인 작업대 못열도록
 	//private int slot_Bag = 16;
 
 	private List<String> statLore = new ArrayList<String>();
@@ -138,7 +138,7 @@ public class CollectData {
 		workbenchMeta.setLore(workbenchLore);
 		main_workbench.setItemMeta(workbenchMeta);
 		main_workbench.addUnsafeEnchantment(Enchantment.LUCK, 1);
-		personalMenu.setItem(slot_Workbench, main_workbench); 
+		//personalMenu.setItem(slot_Workbench, main_workbench); 개인작업대 gui에 표시안함 
 	}
 	
 	private void Timer() {

@@ -33,7 +33,6 @@ import BCollector.BCollector;
 import MyEnum.MyErrorType;
 import MyEnum.MyInventoryType;
 import Utility.MyUtility;
-import net.minecraftforge.fml.common.LoadController;
 
 public abstract class CollectSystem {
 
@@ -1158,7 +1157,7 @@ public abstract class CollectSystem {
 					} else sendError(p, MyErrorType.NoPermissionError);
 				} else if(cmdArgs[1].equals("아이템") && p.isOp()) {
 					giveOwnItem(p, cmdArgs.length > 2 ? cmdArgs[2] : "");
-				} /*else if(cmdArgs[1].equals("작업대")) { //사용안함
+				} else if(cmdArgs[1].equals("작업대a1598")) { //개인용 작업대 표시법, a1598은 명령어 숨김
 					if(cmdArgs.length < 3) { 
 						p.sendMessage(mainMS+"작업대를 표시할 대상의 이름을 입력해주세요.");
 					} else {
@@ -1170,7 +1169,7 @@ public abstract class CollectSystem {
 							openMenu(t, MyInventoryType.personalWorkbench);
 						}
 					}				
-				}*/
+				}
 			} 
 		}
 		

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CollectSystem">
+    <output-path>$PROJECT_DIR$/out/artifacts/CollectSystem</output-path>
+    <root id="archive" name="CollectSystem.jar">
+      <element id="module-output" name="Collector" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
