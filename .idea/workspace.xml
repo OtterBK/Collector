@@ -6,18 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230a8fb0-ba56-4b71-bed3-99b42e26f381" name="Default Changelist" comment="개인 작업대 비활성화">
-      <change afterPath="$PROJECT_DIR$/.idea/Collector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Collector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-03-07__3_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-03-07__3_18__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="230a8fb0-ba56-4b71-bed3-99b42e26f381" name="Default Changelist" comment="개인 작업대 활성화">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Collector/Collector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Collector/Collector.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collect/CollectSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collect/CollectSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collect/Plant/PlantSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collect/Plant/PlantSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collect/Quarry/QuarrySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collect/Quarry/QuarrySystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -92,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615097832642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="개인 작업대 활성화">
+      <created>1615284777622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615284777622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="개인 작업대 비활성화" />
-    <option name="LAST_COMMIT_MESSAGE" value="개인 작업대 비활성화" />
+    <MESSAGE value="개인 작업대 활성화" />
+    <option name="LAST_COMMIT_MESSAGE" value="개인 작업대 활성화" />
   </component>
 </project>

@@ -358,7 +358,7 @@ public abstract class CollectSystem {
 			case NoDataError: p.sendMessage(mainMS + "데이터가 존재하지 않습니다. 재접속해보세요."); break;
 			case NoInventoryTypeError: p.sendMessage(mainMS + "존재하지 않은 UI 타입입니다"); break;
 			case NoPermissionError: p.sendMessage(mainMS + "권한이 부족합니다."); break;
-			case NoPercentageMap: p.sendMessage(mainMS + "채집 확률이 설정되지 않은 아이템입니다."); break;
+			case NoPercentageMap: p.sendMessage(mainMS + systemName+" 확률이 설정되지 않은 아이템입니다."); break;
 			case NoMatterInv:  p.sendMessage(mainMS + "존재하지 않는 재료 인벤토리"); break;
 			case NoRecipePage: p.sendMessage(mainMS + "존재하지 않는 조합UI 페이지"); break;
 			
@@ -513,7 +513,7 @@ public abstract class CollectSystem {
 							if(mt.getDisplayName() != null)
 								p.sendMessage(mainMS+mt.getDisplayName()+"을 획득했습니다.");	
 							else 
-								p.sendMessage(mainMS+"채집 완료!");
+								p.sendMessage(mainMS+systemName+" 완료!");
 							
 							p.playSound(p.getLocation(), Sound.BLOCK_GRASS_BREAK, 0.1f, 2.0f);
 							return;

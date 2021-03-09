@@ -156,9 +156,9 @@ public class QuarrySystem extends CollectSystem{
 						
 				if(picker.equals(picker_Low)) {
 					lowLevel = 10;
-				} else if(picker.equals(picker_veryLow)) {
-					lowLevel = 20;
 				} else if(picker.equals(picker_Medium)) {
+					lowLevel = 20;
+				} else if(picker.equals(picker_High)) {
 					lowLevel = 30;
 				} else if(picker.equals(picker_veryHigh)) {
 					lowLevel = 50;
