@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="CollectSystem" />
+      <artifact name="Collector" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230a8fb0-ba56-4b71-bed3-99b42e26f381" name="Default Changelist" comment="개인 작업대 비활성화" />
+    <list default="true" id="230a8fb0-ba56-4b71-bed3-99b42e26f381" name="Default Changelist" comment="개인 작업대 비활성화">
+      <change afterPath="$PROJECT_DIR$/.idea/Collector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Collector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-03-07__3_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-03-07__3_18__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collect/CollectSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collect/CollectSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collect/Plant/PlantSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collect/Plant/PlantSystem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +60,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1pOOt4RBLdyyRL45WIy4iCxKYyS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,6 +68,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/plugin.yml" />
     <property name="project.structure.last.edited" value="Artifacts" />

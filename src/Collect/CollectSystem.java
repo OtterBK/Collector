@@ -33,7 +33,6 @@ import BCollector.BCollector;
 import MyEnum.MyErrorType;
 import MyEnum.MyInventoryType;
 import Utility.MyUtility;
-import net.minecraftforge.fml.common.LoadController;
 
 public abstract class CollectSystem {
 

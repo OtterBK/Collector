@@ -1,0 +1,40 @@
+Index: .idea/Collector.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"CheckStyle-IDEA-Module\">\r\n    <option name=\"configuration\">\r\n      <map />\r\n    </option>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"module-library\">\r\n      <library>\r\n        <CLASSES>\r\n          <root url=\"jar://F:/Develope/MC/API/spigot.jar!/\" />\r\n        </CLASSES>\r\n        <JAVADOC />\r\n        <SOURCES>\r\n          <root url=\"jar://F:/Develope/MC/API/spigot.jar!/\" />\r\n        </SOURCES>\r\n      </library>\r\n    </orderEntry>\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Collector.iml b/.idea/Collector.iml
+--- a/.idea/Collector.iml	(revision e57d1131f693e575da8b7f8d6bd82c28fdfc35a2)
++++ b/.idea/Collector.iml	(date 1615098015809)
+@@ -1,27 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="JAVA_MODULE" version="4">
+-  <component name="CheckStyle-IDEA-Module">
+-    <option name="configuration">
+-      <map />
+-    </option>
+-  </component>
+   <component name="NewModuleRootManager" inherit-compiler-output="true">
+     <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-    </content>
++    <content url="file://$MODULE_DIR$" />
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="module-library">
+-      <library>
+-        <CLASSES>
+-          <root url="jar://F:/Develope/MC/API/spigot.jar!/" />
+-        </CLASSES>
+-        <JAVADOC />
+-        <SOURCES>
+-          <root url="jar://F:/Develope/MC/API/spigot.jar!/" />
+-        </SOURCES>
+-      </library>
+-    </orderEntry>
+   </component>
+ </module>
+\ No newline at end of file
